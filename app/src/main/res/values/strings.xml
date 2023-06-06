@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hotel Booking App</string>
+    <string name="title">Hotel Booking App</string>
+    <string name="titleSignup">SignUp</string>
+    <string name="address">gfds</string>
+    <string-array name="sortBy">
+        <item>STAR_RATING_HIGHEST_FIRST</item>
+        <item>STAR_RATING_LOWEST_FIRST</item>
+        <item>BEST_SELLER</item>
+        <item>DISTANCE_FROM_LANDMARK</item>
+        <item>GUEST_RATING</item>
+        <item>PRICE_HIGHEST_FIRST</item>
+        <item>PRICE</item>
+    </string-array>
+</resources>

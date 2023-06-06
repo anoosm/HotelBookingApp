@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BookingActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/bookingHotelImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/bookingHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Hotel Name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bookingCheckInDate"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Checkin date"/>
+
+        <TextView
+            android:id="@+id/bookingCheckoutDate"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Checkout date"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/bookingHotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Address"/>
+    <TextView
+        android:id="@+id/bookingHotelPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/red"/>
+    <Button
+        android:id="@+id/btnBookNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Book NOW"/>
+
+</LinearLayout>
